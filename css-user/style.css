@@ -1,0 +1,92 @@
+/* 
+    Document   : style
+    Created on : May 25, 2012, 5:49:34 PM
+    Author     : trivuz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.container_16 {
+    min-height: 500px;
+}
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    margin-top: 10px;
+    height: 200px;
+}
+
+
+
+/* top nav */
+.top-nav {
+    color: black;
+    margin-top: 5px;
+    
+}
+
+.top-nav a{
+    color: black;
+    font-size: 14px;
+    
+}
+.top-nav a:hover {
+    color: white;
+    
+}
+
+.top-nav li {
+    display: inline;
+    background: #88B173;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+
+/* left sidebar */
+.left-sidebar {
+    background: #DBDFE8;
+    padding: 5px;
+    min-height: 400px;
+}
+
+.left-sidebar a {
+    color: #9A1822;
+    font-size: 14px;
+}
+
+/* main content panel */
+
+.contentpanel {
+    background: #C5DBB8;
+    color: black;
+    font-size: 14px;
+    min-height: 400px;
+    padding: 5px;
+}
+.tab{
+    margin: 50px 0px 0px 200px;
+}
+tbody {
+    background: white;
+    padding: 5px;
+}
+th {
+    background: #a4b57b;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid white;
+}
+td {
+    padding: 5px;
+    border: 1px solid #a4b57b;
+}
+
+
+
+/* footer */
+.footer {
+    margin-top: 5px;
+    padding: 5px;
+}
